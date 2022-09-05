@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Service to provide database operations isolated using NestJS and GraphQL.
 
 ## Installation
 

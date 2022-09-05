@@ -6,6 +6,7 @@ import { v4 as uuidv4 } from 'uuid';
 export type UserDocument = User & Document;
 
 @Schema()
+@ObjectType()
 export class User {
     @Prop({ type: String, default: function genUUID() {
         return uuidv4()

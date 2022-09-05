@@ -1,7 +1,7 @@
-import { InputType, Field } from "@nestjs/graphql";
+import { InputType, Field, ArgsType } from "@nestjs/graphql";
 
 @InputType()
-export class CreateUserDto {
+export class CreateUserInput {
     @Field(() => String, { description: 'username of the user' })
     username: string;
     @Field(() => String, { description: 'password of the user' })

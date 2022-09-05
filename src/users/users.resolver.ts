@@ -6,7 +6,7 @@ import { UpdateUserInput } from './dto/update-user.input';
 import { ListUsersInput } from './dto/list-users.input';
 import { ListUsersResponse } from './dto/list-users.response';
 import { connectionFromArraySlice } from 'graphql-relay';
-import ConnectionArgs, { getPagingParameters } from 'src/common/relay/connection.args';
+import ConnectionArgs, { getPagingParameters } from '../common/relay/connection.args';
 
 @Resolver(() => User)
 export class UsersResolver {
